@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+  @apply bg-gray-50 text-gray-900;
+}
+
+a {
+  @apply transition-colors;
+}
+
+.card {
+  @apply bg-white rounded-xl shadow-md;
+}
+
+.table tr:hover {
+  @apply bg-gray-50;
+}
+
+.table th {
+  @apply text-left font-semibold text-gray-700;
+}
+
+.table td {
+  @apply text-gray-800;
+}
