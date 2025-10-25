@@ -15,3 +15,38 @@
 
 # Chat Page
 <img width="1366" height="681" alt="image" src="https://github.com/user-attachments/assets/20e35086-7e7b-4275-b086-9a5fa1516af2" />
+
+## Prerequisites
+
+Before starting, ensure you have the following installed:
+
+- Node.js & npm
+- Docker & Docker Compose
+
+---
+
+## Frontendetup
+
+1. Navigate to the frontend directory:
+   ```bash
+   cd frontend
+   npm install
+   npm run dev
+2. The frontend will be available at:
+  ```bash
+   http://localhost:3000/
+  ```
+---
+
+## Backend Setup
+
+1. From the root directory, build and start the Docker containers:
+   ```bash
+   docker compose up --build -d
+   docker-compose exec backend python /app/app/db/init_db.py
+2. Start the backend service:
+  ```bash
+   docker compose up
+  ```
+
+
