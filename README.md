@@ -100,4 +100,7 @@ Before starting, ensure you have the following installed:
 │  (Fund &       │ │ (Vectors) │ │  (Task Queue)   │
 │ Transactions)  │ │ .faiss/.pkl│ │                 │
 └────────────────┘ └───────────┘ └─────────────────┘
+```
+# Download PDF Dummy
+[Download Sample PDF]([./Sample_Fund_Performance_Report.pdf](https://drive.google.com/file/d/1u9830R5DcsOdp0S-_XacOe2uRxW8PhPQ/view?usp=sharing) "Click to download the PDF")
 
